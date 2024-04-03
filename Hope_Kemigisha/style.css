@@ -11,9 +11,7 @@
 :root{
    
     --primary-color:  #e00229;
-    --primary-color--var:  #520311;
     --secondary:   #c4c0cc;
-    /* --secondarybr:   ; */
     --black: #141414;
     --blackvar: #444141;
     --white: #fff;
@@ -204,15 +202,41 @@ nav ul li:hover ul.dropdown {
 
 /* about */
 
+
 #about{
-    padding: 80px 0;
-    color: var(--primary-color);
+  width: 100%;
+  height: 100vb;
+  padding-top: 0;
+  background-image: url(images/abtbg2.png); 
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #about p{
     color: var(--black);
     text-align: justify;
 }
+
+
+.bio-text{
+  margin-top: 10%;
+  padding-left: 500px;
+  font-size: 20px;
+  float: right;
+  /* margin-left: 40%; */
+}
+
+.bio-text h1{
+  font-size: 60px;
+  margin-top: 40px;
+}
+
+.bio-text h1 span{
+  color: var(--primary-color);
+
+}
+
+
 
 
 
